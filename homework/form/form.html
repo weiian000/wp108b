@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Form</title>
+        <style>
+           
+            legend{
+                font-size: 25px;
+                }
+            textarea{
+                height: 300px;width: 250px;text-align: left;
+                }
+            p {
+                font-size:23px;
+                }
+            button{
+                padding: 8px;border-radius: 8px;
+                }
+            .bor{
+                padding: 10px;margin: 8px;}
+        </style>
+    </head>
+<body>
+    <h1>Form</h1>
+    <p>Please finish forms</p>
+<div class= "bor">
+<form>
+    <fieldset>
+        <legend>Data</legend><br>
+        <label for="lname">Name:</label><br>
+        <input type="text" id="lname" name="lname" ><br><br>
+
+        <label for="mail">email</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="Birthday">Birthday:</label><br>
+        <input type="date" id="Birthday" name="Birthday"><br><br>
+
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+        <option value="Boy">Boy</option>
+        <option value="girl">Girl</option>
+        </select>
+        <br><br>
+        <label for="sug">Suggest:</label><br>
+        
+        <textarea name="message">
+            
+        </textarea><br>
+        <button>submit</button>
+  
+    </fieldset>
+       
+</form>
+</div>
+</body>
+</html>
