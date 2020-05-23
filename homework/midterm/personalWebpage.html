@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<head>
+<style>
+    h1{text-align: center;}
+    img{ 
+        border-radius: 50%;
+         height: px;
+         width: 130px;
+         display: block;
+         margin: auto;
+         font-family: 標楷體;
+        }
+    .navbar {
+        
+        
+        overflow: hidden;
+        background-color: #333;
+        ;
+        }
+
+    .navbar a {
+        float: left;
+        font-size: 24px;
+        color: white;
+        text-align: center;
+        padding: 20px 24px;
+        text-decoration: none;
+        
+    }
+    .navbar a:hover{
+        background-color:yellow;
+    }
+
+    nav{
+        background-color: gray;
+        width: 15%;
+        height: 500px;
+        color: white;
+        font-size: 30px;
+    }
+    .navside
+ {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: #111;
+  overflow-x: hidden;
+
+}
+.navside a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 24px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 24px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px ;
+  
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color:white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.p5{ text-align: center;font-size: 30px;font-family: 標楷體;}
+
+
+</style>
+</head>
+
+<body>
+   <img src="./picture/1.jpg.jpg" alt ="no picture">
+<h1>李維晏</h1>
+<header>
+    <div class="navbar">
+        <a href="./link webpage/food.html">食</a>
+        <a href="./link webpage/hometown.html">住</a>
+        <a href="./link webpage/schoo.html">育</a>
+        <div class="dropdown">
+            <button class="dropbtn">樂</button>
+            <i></i>
+            <div class="dropdown-content">
+                <a href="https://lol.garena.tw/">會玩的遊戲</a>
+                <a href="./link webpage/entertain2.html">聽音樂</a>
+                
+            </div>
+        </div>
+    </div>
+</header>
+
+
+   
+        <div id="mysidenav" class="navside" >
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="http://www.bballman.com/live/61424.html">看籃球</a>
+            <a href="./link webpage/piano.html">彈鋼琴</a>
+            
+
+            
+        </div>
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9728; Interest click me</span>
+
+<script>
+function openNav() {
+  document.getElementById("mysidenav").style.width = "350px";
+}
+
+function closeNav() {
+  document.getElementById("mysidenav").style.width = "0";
+}
+</script>
+<div>
+    <pre>
+    <p class="p5">
+
+
+歡迎來到我的個人網頁
+這個網頁包含了我平常愛吃的食物
+以及我家鄉的介紹，我的學經歷等等..      
+    
+算是第一次架設個人網頁視覺的部分還不是很美
+請多多包涵。
+    </p>
+</pre>
+</div>>
+
+
+
+
+ 
+
+
+</body>
+
+</html>
