@@ -1,5 +1,7 @@
 # 期中程式說明
 
+* 圖片來源均為google圖片搜尋
+
 * 側欄參考w3school (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav) 
   * 做了部分修改 
   * 能完全理解
